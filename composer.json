@@ -15,6 +15,9 @@
       "role": "Developer"
     }
   ],
+  "conflict": {
+    "acquia/acsf-tools": "*"
+  },
   "license": "GPL-2.0+",
   "minimum-stability": "dev",
   "prefer-stable": true,
@@ -32,9 +35,9 @@
     "classmap": ["."]
   },
   "extra": {
-    "installer-name": "asu_acsf_tools",
+    "installer-name": "acsf_tools",
     "installer-paths": {
-      "drush/Commands/{$name}": [ "asuwebplatforms/asu-acsf-tools" ]
+      "drush/Commands/{$name}": [ "acquia/acsf-tools" ]
     },
     "drush": {
       "services": {
