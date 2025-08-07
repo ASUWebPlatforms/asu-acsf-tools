@@ -1,2 +1,8 @@
+.DS_Store
+
 acsf_tools_config.yml
 acsf_sites_list.yml
+
+# Composer files
+composer.lock
+vendor/
