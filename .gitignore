@@ -6,3 +6,4 @@ acsf_sites_list.yml
 # Composer files
 composer.lock
 vendor/
+.idea/
